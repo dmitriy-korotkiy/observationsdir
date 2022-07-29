@@ -1,0 +1,25 @@
+{
+  "name": "dimonrepeat",
+  "version": "1.0.0",
+  "description": "dimon repeat",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmitriy-korotkiy/observationsdir.git"
+  },
+  "keywords": [
+    "cli",
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dmitriykorotkiy",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.67.0",
+    "yargs": "^4.2.0"
+  },
+  "bin": {
+    "dimonrepeat": "bin/observationsdir"
+  }
+}
