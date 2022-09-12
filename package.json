@@ -4,11 +4,11 @@
   "description": "dimon repeat",
   "main": "index.js",
   "repository": {
-    "type": "git",
+    "type": "git2",
     "url": "https://github.com/dmitriy-korotkiy/observationsdir.git"
   },
   "keywords": [
-    "cli",
+    "cli"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,10 +16,14 @@
   "author": "dmitriykorotkiy",
   "license": "MIT",
   "dependencies": {
+    "chokidar": "^3.5.3",
     "request": "^2.67.0",
-    "yargs": "^4.2.0"
+    "yargs": "^17.1.1-candidate.0",
+    "axios": "^0.27.2",
+    "md5": "^2.3.0",
+    "form-data": "^4.0.0"
   },
   "bin": {
-    "dimonrepeat": "bin/observationsdir"
+    "observdir": "bin/observationsdir"
   }
 }
