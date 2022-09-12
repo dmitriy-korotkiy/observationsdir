@@ -46,7 +46,7 @@ let cli = async function() {
     let listTemplatesOfServer = await getData(myServer+'/api/v3/'+designID+'/template')
     let listLangOfServer = await getData(myServer+'/api/v3/'+designID+'/i18n/data-list')
 
-    // console.log(listLangOfServer)
+
 
     const absoluteNewPath = path.resolve(newPath) + '/';
 
